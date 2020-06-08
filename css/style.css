@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Carrois+Gothic+SC&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(to right, #00cdac, #02aab0 )
+  background: linear-gradient(to right, #00cdac, #02aab0 );
+  font-family: 'Carrois', sans-serif;
 }
 
 section {
@@ -20,6 +23,77 @@ section {
   margin: auto;
   padding: 0 1rem;
   overflow: hidden;
+  border-radius: 10px;
+  background: #7819FF;
+}
+
+.card {
   color: #fff;
-  background: linear-gradient( #2c5364, #4286f4)
+  padding: 2rem 4rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+}
+
+#book-form div {
+  margin-bottom: 0.8rem;
+}
+
+#book-form div label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#title, #author, #isbn {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 0.3rem 0;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: #7819FF;
+}
+
+#title:focus, #author:focus, #isbn:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+
+input[type='submit'] {
+  outline: none;
+  background: linear-gradient(to right, #00cdac, #02aab0 );
+  border: none;
+  width: 100%;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type='submit']:focus {
+  outline: none;
+}
+
+input[type='submit']:hover {
+  background: #333;
+  color: #fff;
+}
+
+table {
+  width: 100%;
 }
