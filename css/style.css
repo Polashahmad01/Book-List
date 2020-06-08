@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #00cdac, #02aab0 )
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient( #2c5364, #4286f4)
+}
